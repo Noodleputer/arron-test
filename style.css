@@ -1,8 +1,10 @@
 
 
 li {
-    display: inline;
+    display: inline-block;
     padding: auto;
+    text-align: center;
+   
 	
 	}
 
