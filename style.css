@@ -1,34 +1,111 @@
+body {
+	line-height: 24px;
+	font-family: Adelle, Adelle sans;
+	color: #829099;
+}
 
+/****** BELOW IS TEXT STUFF *****/
 
-li {
-    display: inline-block;
-    padding: auto;
-    text-align: center;
-   
+h1 {
+	font-size: 48px;
+	font-weight: 100;
+	line-height: 48px;
+	margin-bottom: 12px;
+}
+
+h2 {
+	color: #3BBDCA;
+	font-size: 24px;
+	font-weight: 100;
+	margin-bottom: 8px;
+
+}
+
+h3 {
+	font-size: 18px;
+	font-weight: 100;
+	margin-bottom: 24px;
+}
+
+#hero h3 {
+	color: #41484C;
+	margin-bottom: 24px;
+}
+
+p {
+	font-family: Adelle sans;
+	font-size: 16px;
+
 	
-	}
 
-	#hero {
-		background-color: rgba(155, 155, 155, 1);
-	}
+}
 
-	#features {
-		background-color: rgba(130, 144, 153, 1);
-	}
+/***** ABOVE IS TEXT STUFF *****/
 
-	#team {
-		background-color: rgba(206, 212, 217, .5);
-	}
 
-		#conferences {
-		background-color: rgba(155, 155, 155, .5);
-	}
+#nav ul, li {
+	width: 100%;
+	font-family: Adelle sans;
+	font-weight: 400;
+	font-size: 12px; 
+	text-align: center;
+	display: inline-flex;
+}
 
-	#col-1, #col-2, #col-3 {
-		background-color: rgba(206, 212, 217, 1);
+#footer ul, li {
+	display: inline;
+	padding-right: .75em;
+}
 
-	}
 
-	.small-2 {
-		border: 4px solid #fff;
-	}
+#hero {
+	background-color: rgba(59, 189, 202, 1);
+	color:#FFF;
+	text-align: right;
+	height: 500px;
+	margin-bottom: 80px
+}
+
+#features {
+	background-color: rgba(255, 255, 255, 1);
+	margin-bottom: 80px;
+}
+
+
+
+#team {
+	background-color: rgba(255, 255, 255, 1);
+	margin-bottom: 80px;
+}
+
+#conferences {
+	background-color: rgba(255, 255, 255, 1);
+	margin-bottom: 80px;
+}
+
+#col-1, #col-2, #col-3 {
+	background-color: rgba(255, 255, 255, 1);
+	text-align: right;
+	height: 348px;
+	border: 1px solid #CED4D9;
+
+
+}
+
+.features {
+	position: relative;
+}
+
+p.overlay {
+	background-color: rgba(59, 189, 202, .8);
+	color: #FFF;
+	position: absolute;
+	bottom: 0;
+	right: 0;
+	
+
+}
+
+
+
+
